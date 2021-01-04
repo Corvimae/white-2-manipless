@@ -68,3 +68,84 @@
   52 -> 1, 39, 2, 1, 2, 7
   53 -> 1, 40, 2, 1, 6, 8
 :::
+
+# White 2 Any% Manipless
+
+[**Trainer Data**](https://docs.google.com/spreadsheets/d/1jeVoodjItpc0wCekLyN3s2kh1L2WSYQCIefkdRSTTFE/edit#gid=0)
+
+
+Nightbot command for determining Plasma Frigate password from TID:
+```
+!commands add !plasmapass $(eval ["RESHIRAM", "ZEKROM", "9909", "7707", "2202"][Number($(1)) % 256 % 5])
+```
+Usage: !plasmapass 12345
+
+---
+
+Morning time (game is more fun), Month: not summer (2, 6, 10), Fastest days (15-18 works): 
+
+**Timing starts on soft-reset**
+
+Open options and set:
+- Text speed: Fast
+- Battle animations: Off    
+- Battle style: Set
+- (Sound: Mono)
+
+Pick Tepig
+- Do not nickname it
+
+**Rival 1:**
+  - **Oshawott:** Tackle x4
+
+**Youngster Terrell**
+  - **Patrat:** Tackle x3
+
+**Lass Isabel**
+  - **Purrloin:** Ember x2, (Tackle)
+
+Catch Pidove if you encounter one (25% encounter on Route 20, 5% in Ranch)
+
+**Catch Lillipup (40% encounter)**
+- 43% to catch from full.
+- **Reset if a minus Attack nature.**
+- **Pickup ability is faster.** Vital Spirit will give you Intimidate, which is slow.
+- Preferably female to avoid Attract from Skyla's Swoobat.
+- Check TID while checking pups stats (if you forget, check at Cobalion).
+
+:::if{source="Lillipup" stat="startingLevel" condition="4-5" theme="warning"}
+**Keep Tepig in slot 1.**
+
+**Rival 2**
+
+- **Oshawott:**
+  - Tackle
+  - Tail Whip until Oshawott kills you
+  - Switch to Lillipup
+  - Tackle
+-
+
+**Switch Lillipup to slot 1 before the next fight.**
+:::
+
+
+:::if{source="Lillipup" stat="startingLevel" condition="6-7" theme="warning"}
+**Switch Lillipup to slot 1.**
+
+**Rival 2**
+
+- **Oshawott:**
+  - Leer
+  - Tackle x2 :info[89% chance to kill at 12-13 Attack (including crits)]{color=red}
+  - (Tackle)
+:::
+
+Answer no to the Plasma Grunt.
+
+Get the free heal from the breeder if low.
+
+Grab the X Speed to the left of Alder's house.
+
+![X Speed by Alder's House](https://raw.githubusercontent.com/corvimae/white-2-manipless/main/assets/xspeed.png)
+
+
