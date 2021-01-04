@@ -95,14 +95,18 @@ Open options and set:
 Pick Tepig
 - Do not nickname it
 
-**Rival 1:**
-  - **Oshawott:** Tackle x4
+### Rival 1
+> #### Oshawott
+> - Tackle x4
 
-**Youngster Terrell**
-  - **Patrat:** Tackle x3
+### Youngster Terrell
+> #### Patrat
+> - Tackle x3
 
-**Lass Isabel**
-  - **Purrloin:** Ember x2, (Tackle)
+### Lass Isabel
+> #### Purrloin
+> -  Ember x2
+> - (Tackle)
 
 Catch Pidove if you encounter one (25% encounter on Route 20, 5% in Ranch)
 
@@ -116,14 +120,13 @@ Catch Pidove if you encounter one (25% encounter on Route 20, 5% in Ranch)
 :::if{source="Lillipup" stat="startingLevel" condition="4-5" theme="warning"}
 **Keep Tepig in slot 1.**
 
-**Rival 2**
+### Rival 2
 
-- **Oshawott:**
-  - Tackle
-  - Tail Whip until Oshawott kills you
-  - Switch to Lillipup
-  - Tackle
--
+> #### Oshawott
+>  - Tackle
+>  - Tail Whip until Oshawott kills you
+>  - Switch to Lillipup
+>  - Tackle
 
 **Switch Lillipup to slot 1 before the next fight.**
 :::
@@ -132,12 +135,12 @@ Catch Pidove if you encounter one (25% encounter on Route 20, 5% in Ranch)
 :::if{source="Lillipup" stat="startingLevel" condition="6-7" theme="warning"}
 **Switch Lillipup to slot 1.**
 
-**Rival 2**
+### Rival 2
 
-- **Oshawott:**
-  - Leer
-  - Tackle x2 :info[89% chance to kill at 12-13 Attack (including crits)]{color=red}
-  - (Tackle)
+> #### Oshawott
+>  - Leer
+>  - Tackle x2 :info[89% chance to kill at 12-13 Attack (including crits)]{color=red}
+>  - (Tackle)
 :::
 
 Answer no to the Plasma Grunt.
@@ -146,6 +149,120 @@ Get the free heal from the breeder if low.
 
 Grab the X Speed to the left of Alder's house.
 
-![X Speed by Alder's House](https://raw.githubusercontent.com/corvimae/white-2-manipless/main/assets/xspeed.png)
+![X Speed by Alder's House](https://raw.githubusercontent.com/Corvimae/white-2-manipless/main/assets/xspeed.png)
 
+### School Kid Seymore
+> #### Pansage
+> - Leer
+> - Tackle x2
+> - (Tackle)
+
+:info[**Free heal**]{color=pink}
+
+### School Kid Cassie
+> #### Panpour
+> - Leer
+> - Tackle x2
+> - (Tackle)
+
+:info[**Free heal**]{color=pink}
+
+Grab the X Defend in the Nuvema gym.
+
+![X Defend in Nuvema Gym](https://raw.githubusercontent.com/Corvimae/white-2-manipless/main/assets/xdefend.png)
+
+
+### Youngster Pedro
+> #### Patrat
+> :::if{source="Lillipup" stat="atk" condition="(20+ / # / #)" theme="borderless"}
+> - Bite
+> - Tackle
+> :::
+> :::if{source="Lillipup" stat="atk" condition="(19- / x / x)" theme="borderless"}
+> - Tackle x2
+> - (Bite)
+> :::
+> :info[**Todo: combined ranges**]{color=gray}
+> #### Lillipup
+> - Tackle
+> - (Bite if did less than half)
+> - Tackle
+> 
+> :info[**Todo: combined ranges**]{color=gray}
+
+### Lass Serena
+> #### Lillipup
+> :::if{source="Lillipup" stat="atk" condition="(x / 26+ / 17+)" theme="borderless"}
+> - Tackle x2 :info[87.64% chance to kill]{color=red}
+> :::
+> :::if{source="Lillipup" stat="atk" condition="(# / 25- / 16-)" theme="borderless"}
+> - Bite
+> - Tackle x2
+> :::
+> - Do not teach Helping Hand
+> #### Patrat
+> :::if{source="Lillipup" stat="atk" condition="(30+ / 5+ / #)" theme="borderless"}
+> - Bite
+> - Tackle
+> :::
+> :::if{source="Lillipup" stat="atk" condition="(29- / 4- / x)" theme="borderless"}
+> - Tackle x2
+> ::: 
+>
+> :info[**Todo: combined ranges**]{color=gray}
+
+Heal to full, register Medicine Pocket.
+
+
+### Leader Cheren
+> #### Patrat
+> - X Defense
+> - Leer
+> - Bite
+> - (Heal if low)
+> - Tackle
+> :info[**Todo: combined ranges for Tackle x2**]{color=gray}
+> #### Lillipup :info[Faster at 21+ Speed (x / 14+ / 6+)]{color=blue}
+> - Leer
+> :::if{source="Lillipup" stat="atk" condition="(# / 10- / 2-)" theme="borderless"}
+> - Tackle x2
+> ::: 
+> :::if{source="Lillipup" stat="atk" condition="(x / 11+ / 3+)" theme="borderless"}
+> - Bite
+> - Tackle
+> ::: 
+> :info[**Todo: combined ranges for Tackle x2**]{color=gray}
+
+### Nuvema Shopping
+> #### Buy (top merchant)
+> - 6 Super Potions (vvv)
+> - 5 Repels (>)
+> - 1 Escape Rope(^)
+
+PC heal Lillipup and deposit all other Pokémon.
+
+At the grass above Nuvema:
+> #### Bag
+> - Teach Return over Odor Sleuth
+> - Teach Work Up over Leer
+> - Repel (keep applied until Virbank)
+
+
+:::card
+### How does Return work?
+The base damage of Return is calculated as (Friendship / 2.5), rounded down. Friendship is a number from 0-255, and increased in various ways, but the relevant methods in this route are:
+
+- Beating a Gym Leader.
+- Leveling up in a fight.
+- Walking 256 steps (but only 50% of the time)
+- Teaching an HM or TM
+- Using an battle item (X items, Dire Hit, etc)
+
+Since the Friendship boost from walking is random, we can never know exactly what our Friendship is. Furthermore, a Lillipup caught at Lv. 4 will gain 3 more levels in battle than a Lillipup caught at Lv. 7, and will thus have a Friendship advantage.
+
+The route lists _minimum Friendship_, which is the worst possible Friendship value you can have at that point in the route; that is, what your Friendship would be if you somehow managed to never gain Friendship from walking. You can pretty safely play a bit more optimistically, but just be aware that the Return ranges will never be perfectly accurate.
+
+Minimum Friendship is displayed based on the level Lillipup was caught:
+> :info[(<Lv. 4>/<Lv. 5>/<Lv. 6>/<Lv. 7> Minimum Friendship)]{color=green}
+:::
 
