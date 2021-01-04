@@ -117,7 +117,7 @@ Catch Pidove if you encounter one (25% encounter on Route 20, 5% in Ranch)
 - Preferably female to avoid Attract from Skyla's Swoobat.
 - Check TID while checking pups stats (if you forget, check at Cobalion).
 
-:::if{source="Lillipup" stat="startingLevel" condition="4-5" theme="warning"}
+:::if{source="Lillipup" condition="startingLevel=4-5" theme="warning"}
 **Keep Tepig in slot 1.**
 
 ### Rival 2
@@ -132,7 +132,7 @@ Catch Pidove if you encounter one (25% encounter on Route 20, 5% in Ranch)
 :::
 
 
-:::if{source="Lillipup" stat="startingLevel" condition="6-7" theme="warning"}
+:::if{source="Lillipup" condition="startingLevel=6-7" theme="warning"}
 **Switch Lillipup to slot 1.**
 
 ### Rival 2
@@ -174,11 +174,11 @@ Grab the X Defend in the Nuvema gym.
 
 ### Youngster Pedro
 > #### Patrat
-> :::if{source="Lillipup" stat="atk" condition="(20+ / # / #)" theme="borderless"}
+> :::if{source="Lillipup" condition="atk=(20+ / # / #)" theme="borderless"}
 > - Bite
 > - Tackle
 > :::
-> :::if{source="Lillipup" stat="atk" condition="(19- / x / x)" theme="borderless"}
+> :::if{source="Lillipup" condition="atk=(19- / x / x)" theme="borderless"}
 > - Tackle x2
 > - (Bite)
 > :::
@@ -192,20 +192,20 @@ Grab the X Defend in the Nuvema gym.
 
 ### Lass Serena
 > #### Lillipup
-> :::if{source="Lillipup" stat="atk" condition="(x / 26+ / 17+)" theme="borderless"}
+> :::if{source="Lillipup" condition="atk=(x / 26+ / 17+)" theme="borderless"}
 > - Tackle x2 :info[87.64% chance to kill]{color=red}
 > :::
-> :::if{source="Lillipup" stat="atk" condition="(# / 25- / 16-)" theme="borderless"}
+> :::if{source="Lillipup" condition="atk=(# / 25- / 16-)" theme="borderless"}
 > - Bite
 > - Tackle x2
 > :::
 > - Do not teach Helping Hand
 > #### Patrat
-> :::if{source="Lillipup" stat="atk" condition="(30+ / 5+ / #)" theme="borderless"}
+> :::if{source="Lillipup" condition="atk=(30+ / 5+ / #)" theme="borderless"}
 > - Bite
 > - Tackle
 > :::
-> :::if{source="Lillipup" stat="atk" condition="(29- / 4- / x)" theme="borderless"}
+> :::if{source="Lillipup" condition="atk=(29- / 4- / x)" theme="borderless"}
 > - Tackle x2
 > ::: 
 >
@@ -224,10 +224,10 @@ Heal to full, register Medicine Pocket.
 > :info[**Todo: combined ranges for Tackle x2**]{color=gray}
 > #### Lillipup :info[Faster at 21+ Speed (x / 14+ / 6+)]{color=blue}
 > - Leer
-> :::if{source="Lillipup" stat="atk" condition="(# / 10- / 2-)" theme="borderless"}
+> :::if{source="Lillipup" condition="atk=(# / 10- / 2-)" theme="borderless"}
 > - Tackle x2
 > ::: 
-> :::if{source="Lillipup" stat="atk" condition="(x / 11+ / 3+)" theme="borderless"}
+> :::if{source="Lillipup" condition="atk=(x / 11+ / 3+)" theme="borderless"}
 > - Bite
 > - Tackle
 > ::: 
@@ -239,7 +239,7 @@ Heal to full, register Medicine Pocket.
 > - 5 Repels (>)
 > - 1 Escape Rope(^)
 
-PC heal Lillipup and deposit all other Pokémon.
+PC heal Lillipup and deposit all other Pokemon.
 
 At the grass above Nuvema:
 > #### Bag
@@ -289,5 +289,49 @@ Drop Repel after reaching Virbank City.
 Grab the Silk Scarf (hidden down the stairs in the bottom left).
 
 ![Silk Scarf location](https://raw.githubusercontent.com/Corvimae/white-2-manipless/main/assets/silk-scarf.gif)
+
+Equip the Silk Scarf and heal to full.
+
+### Guitarist Billy Jo :info[(125/121/116/111 Minimum Friendship)]{color=green}
+> #### Venipede
+> - Work Up
+> :::if{source="Lillipup" condition="atk=(x / 22+ / 8+)" theme="borderless"}
+> - Bite
+> ::: 
+> :::if{source="Lillipup" condition="atk=(# / 21- / 7-)" theme="borderless"}
+> - Tackle
+> :::
+> - Tackle
+> - (Tackle)
+> :info[**Todo: combined ranges**]{color=gray}
+>
+> #### Koffing
+> - Tackle :info[Tackle x2: 46.44% at 24&ndash;25 (x / 15&ndash;8 / 1&ndash;14), 100% at 26+]{color=red}
+> - (Bite)
+> - Tackle
+> - Teach Take Down over Tackle
+
+Heal to full-ish. Heal with Pecha Berry if poisoned.
+
+### Roughneck Nicky :info[(129/125/120/115 Minimum Friendship)]{color=green}
+> #### Grimer
+> - Work Up
+> :::if{source="Lillipup" condition="atk=(25- / 5- / x) && startingLevel=7" theme="borderless"}
+> - Bite
+> ::: 
+> - Return x2
+> :info[**Todo: combined ranges**]{color=gray}
+>
+> #### Koffing
+> :::if{source="Lillipup" condition="startingLevel=4 && atk=(x / x / 19+)"}
+> - Return x2: :info[**Todo: combined ranges**]{color=gray}
+> :::
+> :::if{source="Lillipup" condition="startingLevel=7 && atk=(25- / 5- / x)"}
+> - Take Down x2
+> :::
+> :::if{source="Lillipup" condition="(startingLevel=4 && atk=(# / # / 18-)) || (startingLevel=7 && atk=(26+ / 6+ / #)) || startingLevel=5-6" theme="borderless"}
+> - Return
+> - Take Down :info[**Todo: combined ranges**]{color=gray}
+> :::
 
 
