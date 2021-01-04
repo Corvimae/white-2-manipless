@@ -250,7 +250,7 @@ At the grass above Nuvema:
 
 :::card
 ### How does Return work?
-The base damage of Return is calculated as (Friendship / 2.5), rounded down. Friendship is a number from 0-255, and increased in various ways, but the relevant methods in this route are:
+The base damage of Return is calculated as `(Friendship / 2.5)`, rounded down. Friendship is a number from 0-255, and increased in various ways, but the relevant methods in this route are:
 
 - Beating a Gym Leader.
 - Leveling up in a fight.
@@ -265,4 +265,29 @@ The route lists _minimum Friendship_, which is the worst possible Friendship val
 Minimum Friendship is displayed based on the level Lillipup was caught:
 > :info[(<Lv. 4>/<Lv. 5>/<Lv. 6>/<Lv. 7> Minimum Friendship)]{color=green}
 :::
+
+Say No to Bianca.
+
+### Hiker Jerome :info[(121/117/112/107 Minimum Friendship)]{color=green}
+> #### Riolu
+> - Tackle x2/x3/x4...
+
+**_You can safely substitute Tackle for Return in the future if your Lillipup started at level 4._**
+
+:::card{theme=neutral}
+**If you need experience because you got an unpog dog:**
+
+### Preschooler Lin (spinner):
+> #### Lillipup:
+> - Tackle x2
+>
+>   _Gives 1 Attack EV._ 
+:::
+
+Drop Repel after reaching Virbank City.
+
+Grab the Silk Scarf (hidden down the stairs in the bottom left).
+
+![Silk Scarf location](https://raw.githubusercontent.com/Corvimae/white-2-manipless/main/assets/silk-scarf.gif)
+
 
