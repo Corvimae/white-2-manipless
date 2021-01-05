@@ -872,7 +872,6 @@ Heal to 90+.
   :::::
 :::::::
 
-
 ### Undella Shopping
 > #### Buy
 > - 1 Revive (>^)
@@ -931,3 +930,637 @@ Bike through Opelucid to Route 9. Grab the Elixir in the grass to the immediate 
 Go to the Route 9 Mall. Run up the left-most stairs to the battle item vendor.
 
 ![Elixir location](https://raw.githubusercontent.com/Corvimae/white-2-manipless/main/assets/x-item-shop.png)
+
+### Route 9 Mall Shopping
+> #### Buy
+> - 4 X Attack (v)
+> - 1 Guard Spec (vv)
+
+:::::::trainer[Veteran Lucius]
+  :::::pokemon[Fraxure]
+    - Iron Head x2
+    - (Strength)
+  :::::
+:::::::
+
+#### Bag
+- Heal to full.
+- Use both Proteins on Cobalion
+- Use both Rare Candies on Cobalion.
+
+Head up, and pick the trainer on the right.
+
+:::::::trainer[Veteran Jerry]
+  :::::pokemon[Fraxure]
+    - X Attack
+    - Sacred Sword x2
+  :::::
+  :::::pokemon[Druddigon]
+    :::if{source="Cobalion" condition="atk=(19+ / # / #)"}
+      - Iron Head
+      -Sacred Sword
+    :::
+    :::if{source="Cobalion" condition="atk=(18- / x / x)"}
+      - Sacred Sword x2
+    :::
+  :::::
+:::::::
+
+Heal if low. 
+
+Head up, and pick the trainer on the right.
+
+:::::::trainer[Veteran Ron]
+  - Use an X Attack on Cobalion with one party member. 
+  - The other party member can do whatever.
+  - Sacred Sword on Druddigon (Cobalion)
+  - Sacred Sword on Axew (Cobalion) :info[Always kills at 90+ Attack (12+ / # / #)]{color=red}
+  - Return on Druddigon (Stoutland)
+  - Sacred Sword on Fraxure 
+  - (Sacred Sword on Fraxure)
+  - Teach Swords Dance over Helping Hand
+:::::::
+
+Heal if less than 70 HP.
+
+:::::::trainer[Veteran Drayden]
+  :::::pokemon[Druddigon]
+    - Swords Dance x2
+    - Sacred Sword :info[Always kills at 89+ Attack (4+ / # / #)]{color=red}
+  :::::
+  :::::pokemon[Flygon]{info="Faster at 106+ Speed (15+ / # / #)" infoColor=blue}
+    - Iron Head :info[TODO: range table]{color=gray}
+  :::::
+  :::::pokemon[Haxorus]{info="Faster at 110+ Speed (25+ / # / #)" infoColor=blue}
+    - Sacred Sword :info[Always kills at 89+ Attack (4+ / # / #)]{color=red}
+  :::::
+:::::::
+
+Heal if red bar.
+
+:::::::trainer[Team Plasma Grunt]
+  :::::pokemon[Watchog]
+    - Sacred Sword
+  :::::
+  :::::pokemon[Muk]
+    - Iron Head x2
+    - (Strength) :info[TODO: range table]{color=gray}
+  :::::
+:::::::
+
+:::::::trainer[Team Plasma Grunt]
+  :::::pokemon[Golbat]
+    - Swords Dance
+    - Iron Head
+  :::::
+  :::::pokemon[Garbodor]
+    - Iron Head
+  :::::
+:::::::
+
+:::::::trainer[Team Plasma Grunt]
+  :::::pokemon[Seviper]
+    - Swords Dance
+    - Iron Head
+  :::::
+  :::::pokemon[Weezing]
+    - Iron Head
+    - Strength
+  :::::
+:::::::
+
+:::::::trainer[Team Plasma Zinzolin]
+  :::::pokemon[Cryogonal]
+    - Iron Head
+  :::::
+  :::::pokemon[Cryogonal]
+    - Iron Head
+  :::::
+  :::::pokemon[Weavile]
+    - Sacred Sword :info[Always kills at 98+ Attack (9+ / # / #)]{color=red}
+  :::::
+:::::::
+
+:info[**Free heal**]{color=pink}
+
+:::::::trainer[Team Plasma Shadow]
+  :::::pokemon[Pawniard]
+    - Sacred Sword
+  :::::
+  :::::pokemon[Absol]
+    - Sacred Sword
+  :::::
+  :::::pokemon[Pawniard]
+    - Sacred Sword
+  :::::
+:::::::
+
+Swap Stoutland to Slot 2.
+
+Fly to Undella and head through the Marine Tube.
+
+:::::::trainer[Ace Trainer Doyle]
+  :::::pokemon[Floatzel]
+    - Swords Dance x2
+    - Sacred Sword
+  :::::
+  :::::pokemon[Mantine]
+    - Strength :info[TODO: +2 Strength table]{color=gray}
+  :::::
+:::::::
+
+:::::::trainer[Ace Trainer Doyle]
+  :::::pokemon[Floatzel]
+    - Swords Dance x2
+    - Sacred Sword
+  :::::
+  :::::pokemon[Starmie]
+    - Strength
+  :::::
+:::::::
+
+Heal to full.
+
+:::::::trainer[Leader Marlon]{info="(Heal as needed)"}
+  :::::pokemon[Carracosta]
+    - Sacred Sword x2
+  :::::
+
+  Do not teach Quick Guard.
+
+  :::::pokemon[Wailord]
+    - (Heal Burn)
+    - Swords Dance x2
+    - Sacred Sword
+  :::::
+  :::::pokemon[Jellicent]
+    - Iron Head
+    - (Heal Burn)
+    - Iron Head
+    - _If Cursed Body procs (30%), swap out._
+  :::::
+:::::::
+
+Get the Rare Candy next to the railing and fly to Humilau City.
+
+![Rare Candy 3 location](https://raw.githubusercontent.com/Corvimae/white-2-manipless/main/assets/rare-candy-3.gif)
+
+Say No to Colress.
+
+:::::::trainer[Swimmer Kaoru]{info="(Wait two tiles above for her to turn and run towards you.)"}
+  :::::pokemon[Remoraid]
+    - Strength
+  :::::
+  :::::pokemon[Remoraid]
+    - Strength
+  :::::
+:::::::
+
+:::::::trainer[Pokemon Ranger Mikiko]
+  :::::pokemon[Vibrava]
+    :::if{source="Cobalion" condition="atk=(# / 17- / x)"}
+      - Swords Dance
+      - Iron Head
+    :::
+    :::if{source="Cobalion" condition="atk=(x / 18+ / #)"}
+      - Iron Head
+    :::
+  :::::
+  :::::pokemon[Gligar]
+    - Iron Head x2
+    - (Strength) :info[todo: iron head x2 table]{color=gray}
+  :::::
+:::::::
+
+Run from Crustle.
+
+:::::::trainer[Team Plasma Grunt]
+  :::::pokemon[Watchog]
+    - Sacred Sword
+  :::::
+  :::::pokemon[Garbodor]
+    - Swords Dance
+    - Iron Head
+  :::::
+:::::::
+
+:::::::trainer[Team Plasma Double]
+  :::::pokemon[Setup]
+  - Swords Dance
+  :::::
+  :::::pokemon[Golbat]
+    - Iron Head
+  :::::
+  :::::pokemon[Drapion]
+    - Sacred Sword :info[Always kills at 115+ Attack (27+ / 4+ / #)]{color=red}
+  :::::
+  :::::pokemon[Seviper]
+    - Iron Head
+  :::::
+  :::::pokemon[Garbodor]
+    - Iron Head
+  :::::
+:::::::
+
+:::::::trainer[Team Plasma Grunt]
+  :::::pokemon[Pawniard]
+    - Sacred Sword
+  :::::
+  :::::pokemon[Pawniard]
+    - Sacred Sword
+  :::::
+  :::::pokemon[Pawniard]
+    - Sacred Sword
+  :::::
+:::::::
+
+Possible passwords: 2202 7707 9909 ZEKROM RESHIRAM
+
+:::::::trainer[Team Plasma Double]
+  :::::pokemon[Cryogonal]
+    - Sacred Sword
+  :::::
+  :::::pokemon[Cryogonal]
+    - Sacred Sword
+  :::::
+  :::::pokemon[Watchog]
+    - Sacred Sword
+  :::::
+  :::::pokemon[Weavile]
+    - Sacred Sword
+  :::::
+  :::::pokemon[Scolipede]
+    - Strength
+  :::::
+:::::::
+
+#### Bag
+- Use Elixir on Cobalion
+- Heal if red bar.
+
+Fly to Humilau. 
+
+:::::::trainer[Team Plasma Grunt]
+  :::::pokemon[Weezing]
+    :::if{source="Cobalion" condition="atk=(# / # / 12-)"}
+      - Sacred Sword x2
+      - Iron Head
+    :::
+    :::if{source="Cobalion" condition="atk=(x / x / 13+)"}
+      - Sacred Sword
+      - Iron Head
+    :::
+
+    :info[TODO: +2 Iron Head range table]{color=gray}
+  :::::
+  :::::pokemon[Muk]
+    - Iron Head
+  :::::
+:::::::
+
+:::::::trainer[Plasma Frigate Double]
+  :::::pokemon[Turn 1]
+    - **Cobalion**: Sacred Sword Scraggy
+    - **Stoutland**: X Attack Cobalion
+  :::::
+  :::::pokemon[Turn 2]
+    - **Cobalion**: Sacred Sword Scrafty
+    - **Stoutland**: Strength Trubbish
+  :::::
+  :::::pokemon[Turn 3]
+    - **Cobalion**: Iron Head Whirlipede
+    - **Stoutland**: Strength Trubbish
+  :::::
+  :::::pokemon[Turn 4]
+    - **Cobalion**: Iron Head Garbodor
+    - **Stoutland**: Heal Cobalion if low / Strength Garbodor
+  :::::
+  :::::pokemon[Turn 5]
+    - **Cobalion**: Iron Head Golbat
+    - **Stoutland**: Heal Cobalion if low / Strength Garbodor
+  :::::
+:::::::
+
+Grab the Max Elixir.
+
+![Max Elixir location](https://raw.githubusercontent.com/Corvimae/white-2-manipless/main/assets/max-elixir.png)
+
+:::::::trainer[Team Plasma Zinzolin]
+  :::::pokemon[Cryogonal]
+    - Sacred Sword
+  :::::
+  :::::pokemon[Cryogonal]
+    - Sacred Sword
+  :::::
+  :::::pokemon[Weavile]
+    - Sacred Sword
+  :::::
+:::::::
+
+Heal if yellow HP.
+
+:::::::trainer[Team Plasma Colress]{info="(Heal as needed)"}
+  :::::pokemon[Magneton]{info="Cobalion always outspeeds" infoColor=blue}
+    - Swords Dance
+    - (Heal Paralysis)
+    - Iron Head
+    - Sacred Sword
+  :::::
+  :::::pokemon[Metang]{info="Cobalion always outspeeds" infoColor=blue}
+    - Sacred Sword
+    - (Strength) :info[TODO: +2 SS range table]{color=gray}
+  :::::
+  :::::pokemon[Magnezone]{info="Cobalion always outspeeds" infoColor=blue}
+    - Iron Head
+    - Sacred Sword
+  :::::
+  :::::pokemon[Klinklang]{info="Cobalion always outspeeds" infoColor=blue}
+    - Sacred Sword
+  :::::
+  :::::pokemon[Beheeyem]{info="Cobalion always outspeeds" infoColor=blue}
+    - Iron Head :info[+1 Iron Head x1 kills at 132+ Attack (x / 19+ / #)]{color=red}
+    - (Iron Head)
+  :::::
+:::::::
+
+Answer Yes to Colress.
+
+#### Bag
+- Use the Max Elixir on Cobalion.
+- Heal if under 70 HP.
+
+:::::::trainer[Team Plasma Shadow]
+  :::::pokemon[Pawniard]
+    - Sacred Sword
+  :::::
+  :::::pokemon[Absol]
+    - Sacred Sword
+  :::::
+
+  Do not teach Work Up
+
+  :::::pokemon[Pawniard]
+    - Sacred Sword
+  :::::
+:::::::
+
+:::::::trainer[Team Plasma Shadow (Right)]
+  :::::pokemon[Pawniard]
+    - Sacred Sword
+  :::::
+  :::::pokemon[Banette]
+    - Iron Head x2
+  :::::
+  :::::pokemon[Pawniard]
+    - Sacred Sword
+  :::::
+:::::::
+
+:::::::trainer[Team Plasma Shadow (Bottom)]
+  :::::pokemon[Pawniard]
+    - Swords Dance
+    - Sacred Sword
+  :::::
+  :::::pokemon[Accelgor]
+    - Strength
+  :::::
+  :::::pokemon[Pawniard]{info="Faster at 160+ Speed (x / x / 10+) (unless Pawniard used Scary Face)" infoColor=blue}
+    - Sacred Sword
+  :::::
+:::::::
+
+Heal to full.
+
+:::::::trainer[Kyurem]
+  - Iron Head
+  - Sacred Sword
+::::::: 
+
+:::::::trainer[Team Plasma Ghetsis]
+  :::::pokemon[Cofagrigus]
+    - Swords Dance x2
+    - Iron Head :info[+4 Iron Head x1 kills at 118+ Attack (6+ / # / #)]{color=red}
+  :::::
+  :::::pokemon[Seismitoad]
+    - Sacred Sword
+  :::::
+  :::::pokemon[Drapion]
+    - Iron Head
+  :::::
+  :::::pokemon[Eelektross]
+    - Sacred Sword
+  :::::
+  :::::pokemon[Toxicroak]
+    - Iron Head
+  :::::
+  :::::pokemon[Hydreigon]
+    - Iron Head
+  :::::
+:::::::
+
+Use an Escape Rope.
+
+:::::::trainer[Ace Trainer Jamie]
+  :::::pokemon[Drifblim]
+    :::if{source="Cobalion" condition="atk=(# / 25- / 5-)"}
+      - Swords Dance x2
+      - Iron Head
+      - (Iron Head)
+    :::
+    :::if{source="Cobalion" condition="atk=(x / 26+ / 6+)"}
+      - Swords Dance
+      - Iron Head
+      - (Iron Head)
+    :::
+  :::::
+  :::::pokemon[Claydol]
+    - Iron Head :info[TODO: +2 Iron Head range table]{color=gray}
+  :::::
+:::::::
+
+:::::::trainer[Ace Trainer Webster]
+  :::::pokemon[Durant]
+    - Swords Dance
+    - Sacred Sword :info[+2 Sacred Sword always kills at 141+ Attack (x / 12+ / #)]{color=red}
+    - (Sacred Sword)
+  :::::
+  :::::pokemon[Ferrothorn]
+    - Strength
+    - Sacred Sword
+  :::::
+:::::::
+
+Heal if yellow bar.
+
+:::::::trainer[Veteran Portia]
+  :::::pokemon[Zebstrika]
+    - Swords Dance
+    - Sacred Sword
+  :::::
+  :::::pokemon[Starmie]
+    - Iron Head
+    - Strength
+  :::::
+  :::::pokemon[Sawk]
+    - Strength x2
+  :::::
+:::::::
+
+#### Bag
+- Use the Rare Candy on Cobalion :info[Assuming you hit 65 here as planned]{color=gray}
+- Heal to full.
+
+
+:::::::trainer[Veteran Sterling]
+  :::::pokemon[Zebstrika]
+    :::if{source="Cobalion" condition="atk=(# / 17- / x)"}
+      - Swords Dance x2
+      - Sacred Sword
+    :::
+    :::if{source="Cobalion" condition="atk=(x / 18+ / #)"}
+      - Swords Dance
+      - Sacred Sword
+    :::
+  :::::
+  :::::pokemon[Golurk]
+    - Iron Head
+    - (Iron Head) :info[TODO: +2 Iron Head range table]{color=gray}
+  :::::
+  :::::pokemon[Throh]
+    - Sacred Sword :info[TODO: +2 SS range table]{color=gray}
+  :::::
+:::::::
+
+:::::::trainer[Rival]
+  :::::pokemon[Unfezant]
+    - Swords Dance
+    - (Heal Confusion)
+    - Sacred Sword
+  :::::
+  :::::pokemon[Bouffalant]
+    - Sacred Sword
+  :::::
+  
+  Do not teach Metal Burst.
+
+  :::::pokemon[Simisage]
+    - Sacred Sword
+  :::::
+
+  :::::pokemon[Samurott]
+    - _If Unfezant hit with Swagger_:
+      - Sacred Sword :info[Todo: +4 SS range table]{color=gray}
+    - _Otherwise_:
+      - Iron Head
+      - Sacred Sword
+  :::::
+:::::::
+
+PC Heal and deposit all Pokemon besides Cobalion.
+
+:::if{source="Cobalion" condition="atk=(# / 22- / 1-)" theme="warning"}
+**Purchase 1 Full Restore (>)** :info[(or more if you feel like it, it's not like you need the money.)]{color=gray}
+:::
+
+:::::::trainer[Elite Four Grimsley]{info="(Top left)"}
+  :::::pokemon[Liepard]
+    - X Attack
+    - Sacred Sword
+  :::::
+  :::::pokemon[All other Pokemon]
+    - Sacred Sword
+  :::::
+:::::::
+
+:::::::trainer[Elite Four Caitlin]{info="(Top right)"}
+  :::::pokemon[Musharna]{info="TODO: Stall out Reflect" infoColor=gray}
+    - Swords Dance x2
+    - Full Heal
+    - Iron Head :info[Always kills at 133+ Attack (6+ / # / #)]{color=red}
+    - (Iron Head)
+  :::::
+  :::::pokemon[Reuniclus]
+    - Iron Head
+  :::::
+  :::::pokemon[Gothitelle]
+    - Iron Head
+    - (Iron Head) :info[Always kills at 135+ Attack (9+ / # / #)]{color=red}
+  :::::
+  :::::pokemon[Sigilyph]
+    - Iron Head
+  :::::
+:::::::
+
+:::::::trainer[Elite Four Shauntal]{info="(Bottom left)"}
+  :::::pokemon[Cofagrigus]
+    - Swords Dance x3
+    - (Heal Burn)
+    - Iron Head
+  :::::
+  :::::pokemon[Chandelure]
+    - Iron Head
+    - (Iron Head) :info[TODO: +4 and +6 IH range tables]{color=gray}
+  :::::
+  :::::pokemon[Golurk]
+    - (Heal Burn)
+    - Iron Head
+  :::::
+  :::::pokemon[Drifblim]
+    - Iron Head
+  :::::
+:::::::
+
+Heal to full.
+
+:::::::trainer[Elite Four Marshal]{info="(Bottom right)"}
+  :::::pokemon[Throh]
+    - Guard Spec
+    - Strength
+    - Swords Dance x2
+    - Sacred Sword
+  :::::
+  :::::pokemon[Mienshao]
+    - Sacred Sword
+  :::::
+  :::::pokemon[Conkeldurr]
+    - Sacred Sword :info[Always kills at 136+ Attack (9+ / # / #)]{color=red}
+  :::::
+  :::::pokemon[Sawk]
+    - Iron Head
+    - Strength x2
+  :::::
+:::::::
+
+:::::::trainer[Champion Iris]
+  :::::pokemon[Hydreigon]
+    :::if{source="Cobalion" condition="atk=(# / 22- / 1-)"}
+      - Swords Dance
+      - (Full Restore if Burned)
+      - Sacred Sword
+    :::
+    :::if{source="Cobalion" condition="atk=(x / 23+ / 2+)"}
+      - Sacred Sword
+    :::
+  :::::
+  :::::pokemon[Druddigon]
+    - _If you didn't set up on Hydreigon:_
+      - Swords Dance
+    - Sacred Sword :info[TODO: +2 SS range table]{color=gray}
+  :::::
+  :::::pokemon[Aggron]
+    - Sacred Sword
+  :::::
+  :::::pokemon[Haxorus]
+    - (Heal if yellow bar)
+    - Iron Head
+    - Sacred Sword :info[TODO: calculate EQ damage]{color=gray}
+  :::::
+  :::::pokemon[Lapras]
+    - Sacred Sword
+  :::::
+  :::::pokemon[Archeops]
+    - Iron Head
+  :::::
+:::::::
+
+**Time ends when the screen fades to black after displaying the in-game clear time.**
