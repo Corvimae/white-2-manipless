@@ -95,18 +95,24 @@ Open options and set:
 Pick Tepig
 - Do not nickname it
 
-### Rival 1
-> #### Oshawott
-> - Tackle x4
+:::::::trainer[Rival 1]
+  :::::pokemon[Oshawott]
+   - Tackle x4
+  :::::
+:::::::
 
-### Youngster Terrell
-> #### Patrat
-> - Tackle x3
+:::::::trainer[Youngster Terrell]
+  :::::pokemon[Patrat]
+    - Tackle x3
+  :::::
+:::::::
 
-### Lass Isabel
-> #### Purrloin
-> -  Ember x2
-> - (Tackle)
+::::::trainer[Lass Isabel]
+  :::::pokemon[Purrloin]
+    - Ember x2
+    - (Tackle)
+  :::::
+:::::::
 
 Catch Pidove if you encounter one (25% encounter on Route 20, 5% in Ranch)
 
@@ -117,31 +123,33 @@ Catch Pidove if you encounter one (25% encounter on Route 20, 5% in Ranch)
 - Preferably female to avoid Attract from Skyla's Swoobat.
 - Check TID while checking pups stats (if you forget, check at Cobalion).
 
-:::if{source="Lillipup" condition="startingLevel=4-5" theme="warning"}
-**Keep Tepig in slot 1.**
+:::::::if{source="Lillipup" condition="startingLevel=4-5" theme="warning"}
+  **Keep Tepig in slot 1.**
 
-### Rival 2
+  :::::trainer[Rival 2]
+    :::pokemon[Oshawott]
+      - Tackle
+      - Tail Whip until Oshawott kills you
+      - Switch to Lillipup
+      - Tackle
+    :::
+  :::::
 
-> #### Oshawott
->  - Tackle
->  - Tail Whip until Oshawott kills you
->  - Switch to Lillipup
->  - Tackle
-
-**Switch Lillipup to slot 1 before the next fight.**
-:::
+  **Switch Lillipup to slot 1 before the next fight.**
+:::::::
 
 
-:::if{source="Lillipup" condition="startingLevel=6-7" theme="warning"}
-**Switch Lillipup to slot 1.**
+:::::::if{source="Lillipup" condition="startingLevel=6-7" theme="warning"}
+  **Switch Lillipup to slot 1.**
 
-### Rival 2
-
-> #### Oshawott
->  - Leer
->  - Tackle x2 :info[89% chance to kill at 12-13 Attack (including crits)]{color=red}
->  - (Tackle)
-:::
+  :::::trainer[Rival 2]
+    :::pokemon[Oshawott]
+      - Leer
+      - Tackle x2 :info[89% chance to kill at 12-13 Attack (including crits)]{color=red}
+      - (Tackle)
+    :::
+  :::::
+:::::::
 
 Answer no to the Plasma Grunt.
 
@@ -151,19 +159,23 @@ Grab the X Speed to the left of Alder's house.
 
 ![X Speed by Alder's House](https://raw.githubusercontent.com/Corvimae/white-2-manipless/main/assets/xspeed.png)
 
-### School Kid Seymore
-> #### Pansage
-> - Leer
-> - Tackle x2
-> - (Tackle)
+:::::::trainer[School Kid Seymore]
+  :::::pokemon[Pansage]
+    - Leer
+    - Tackle x2
+    - (Tackle)
+  :::::
+:::::::
 
 :info[**Free heal**]{color=pink}
 
-### School Kid Cassie
-> #### Panpour
-> - Leer
-> - Tackle x2
-> - (Tackle)
+:::::::trainer[School Kid Cassie]
+  :::::pokemon[Panpour]
+    - Leer
+    - Tackle x2
+    - (Tackle)
+  :::::
+:::::::
 
 :info[**Free heal**]{color=pink}
 
@@ -171,68 +183,73 @@ Grab the X Defend in the Nuvema gym.
 
 ![X Defend in Nuvema Gym](https://raw.githubusercontent.com/Corvimae/white-2-manipless/main/assets/xdefend.png)
 
+:::::::trainer[Youngster Pedro]
+  :::::pokemon[Patrat]
+    :::if{source="Lillipup" condition="atk=(20+ / # / #)"}
+      - Bite
+      - Tackle
+    :::
+    :::if{source="Lillipup" condition="atk=(19- / x / x)"}
+      - Tackle x2
+      - (Bite)
+    :::
+    :info[**Todo: combined ranges**]{color=gray}
+  :::::
+  :::::pokemon[Lillipup]
+    - Tackle
+    - (Bite if did less than half)
+    - Tackle :info[**Todo: combined ranges**]{color=gray}
+  :::::
+:::::::
 
-### Youngster Pedro
-> #### Patrat
-> :::if{source="Lillipup" condition="atk=(20+ / # / #)"}
-> - Bite
-> - Tackle
-> :::
-> :::if{source="Lillipup" condition="atk=(19- / x / x)"}
-> - Tackle x2
-> - (Bite)
-> :::
-> :info[**Todo: combined ranges**]{color=gray}
-> #### Lillipup
-> - Tackle
-> - (Bite if did less than half)
-> - Tackle
-> 
-> :info[**Todo: combined ranges**]{color=gray}
-
-### Lass Serena
-> #### Lillipup
-> :::if{source="Lillipup" condition="atk=(x / 26+ / 17+)"}
-> - Tackle x2 :info[87.64% chance to kill]{color=red}
-> :::
-> :::if{source="Lillipup" condition="atk=(# / 25- / 16-)"}
-> - Bite
-> - Tackle x2
-> :::
-> - Do not teach Helping Hand
-> #### Patrat
-> :::if{source="Lillipup" condition="atk=(30+ / 5+ / #)"}
-> - Bite
-> - Tackle
-> :::
-> :::if{source="Lillipup" condition="atk=(29- / 4- / x)"}
-> - Tackle x2
-> ::: 
->
-> :info[**Todo: combined ranges**]{color=gray}
+:::::::trainer[Lass Serena]
+  :::::pokemon[Lillipup]
+    :::if{source="Lillipup" condition="atk=(x / 26+ / 17+)"}
+      - Tackle x2 :info[87.64% chance to kill]{color=red}
+    :::
+    :::if{source="Lillipup" condition="atk=(# / 25- / 16-)"}
+       - Bite
+      - Tackle x2
+    :::
+  Do not teach Helping Hand
+  :::::
+  :::::pokemon[Patrat]
+    :::if{source="Lillipup" condition="atk=(30+ / 5+ / #)"}
+      - Bite
+      - Tackle
+    :::
+    :::if{source="Lillipup" condition="atk=(29- / 4- / x)"}
+      - Tackle x2
+    ::: 
+    :info[**Todo: combined ranges**]{color=gray}
+  :::::
+:::::::
 
 Heal to full, register Medicine Pocket.
 
+:::::::trainer[Leader Cheren]
+  :::::pokemon[Patrat]
+    - X Defense
+    - Leer
+    - Bite
+    - (Heal if low)
+    - Tackle
+    :info[**Todo: combined ranges for Tackle x2**]{color=gray}
+  :::::
+  :::::pokemon[Lillipup]{info="Faster at 21+ Speed (x / 14+ / 6+)" infoColor="blue"}
+    :::if{source="Lillipup" condition="atk=(# / 10- / 2-)"}
+      - Leer
+      - Tackle x2
+    ::: 
+    :::if{source="Lillipup" condition="atk=(x / 11+ / 3+)"}
+      - Leer
+      - Bite
+      - Tackle
+    ::: 
 
-### Leader Cheren
-> #### Patrat
-> - X Defense
-> - Leer
-> - Bite
-> - (Heal if low)
-> - Tackle
-> :info[**Todo: combined ranges for Tackle x2**]{color=gray}
-> #### Lillipup :info[Faster at 21+ Speed (x / 14+ / 6+)]{color=blue}
-> :::if{source="Lillipup" condition="atk=(# / 10- / 2-)"}
-> - Leer
-> - Tackle x2
-> ::: 
-> :::if{source="Lillipup" condition="atk=(x / 11+ / 3+)"}
-> - Leer
-> - Bite
-> - Tackle
-> ::: 
-> :info[**Todo: combined ranges for Tackle x2**]{color=gray}
+    :info[**Todo: combined ranges for Tackle x2**]{color=gray}
+  :::::
+:::::::
 
 ### Nuvema Shopping
 > #### Buy (top merchant)
@@ -268,21 +285,25 @@ Minimum Friendship is displayed based on the level Lillipup was caught:
 
 Say No to Bianca.
 
-### Hiker Jerome :info[(121/117/112/107 Minimum Friendship)]{color=green}
-> #### Riolu
-> - Tackle x2/x3/x4...
+:::::::trainer[Hiker Jerome]{info="(121/117/112/107 Minimum Friendship)" infoColor=green}
+  :::::pokemon[Riolu]
+    - Tackle x2/x3/x4...
+  :::::
+:::::::
 
 **_You can safely substitute Tackle for Return in the future if your Lillipup started at level 4._**
 
-:::card{theme=neutral}
-**If you need experience because you got an unpog dog:**
+:::::::card{theme=neutral}
+  **If you need experience because you got an unpog dog:**
 
-### Preschooler Lin (spinner):
-> #### Lillipup:
-> - Tackle x2
->
->   _Gives 1 Attack EV._ 
-:::
+  :::::trainer[Preschooler Lin (spinner)]
+    :::pokemon[Lillipup]
+      - Tackle x2
+
+      _Gives 1 Attack EV._ 
+    :::
+  :::::
+:::::::
 
 Drop Repel after reaching Virbank City.
 
@@ -292,102 +313,113 @@ Grab the Silk Scarf (hidden down the stairs in the bottom left).
 
 Equip the Silk Scarf and heal to full.
 
-### Guitarist Billy Jo :info[(125/121/116/111 Minimum Friendship)]{color=green}
-> #### Venipede
-> :::if{source="Lillipup" condition="atk=(x / 22+ / 8+)"}
-> - Work Up
-> - Bite
-> - Tackle
-> - (Tackle)
-> ::: 
-> :::if{source="Lillipup" condition="atk=(# / 21- / 7-)"}
-> - Work Up
-> - Tackle x2
-> - (Tackle)
-> :::
-> :info[**Todo: combined ranges**]{color=gray}
->
-> #### Koffing
-> - Tackle :info[Tackle x2: 46.44% at 24&ndash;25 (x / 15&ndash;8 / 1&ndash;14), 100% at 26+]{color=red}
-> - (Bite)
-> - Tackle
-> - Teach Take Down over Tackle
+:::::::trainer[Guitarist Billy Jo]{info="(125/121/116/111 Minimum Friendship)" infoColor=green}
+  :::::pokemon[Venipede]
+  :::if{source="Lillipup" condition="atk=(x / 22+ / 8+)"}
+    - Work Up
+    - Bite
+    - Tackle
+    - (Tackle)
+  ::: 
+  :::if{source="Lillipup" condition="atk=(# / 21- / 7-)"}
+    - Work Up
+    - Tackle x2
+    - (Tackle)
+  :::
+
+  :info[**Todo: combined ranges**]{color=gray}
+  :::::
+  :::::pokemon[Koffing]
+    - Tackle :info[Tackle x2: 46.44% at 24&ndash;25 (x / 15&ndash;8 / 1&ndash;14), 100% at 26+]{color=red}
+    - (Bite)
+    - Tackle
+    - Teach Take Down over Tackle
+  :::::
+:::::::
 
 Heal to full-ish. Heal with Pecha Berry if poisoned.
 
-### Roughneck Nicky (Drummer) :info[(129/125/120/115 Minimum Friendship)]{color=green}
-> #### Grimer
-> :::if{source="Lillipup" condition="atk=(25- / 5- / x) && startingLevel=7"}
-> - Work Up x2
-> - Return x2
-> ::: 
-> :::if{source="Lillipup" condition="(atk=(26+ / 6+ / #) && startingLevel=7) || startingLevel=6-"}
-> - Work Up
-> - Return x2
-> ::: 
-> :info[**Todo: combined ranges**]{color=gray}
->
-> #### Koffing
-> :::if{source="Lillipup" condition="atk=(x / x / 19+) && startingLevel=4"}
-> - Return x2: :info[**Todo: combined ranges**]{color=gray}
-> :::
-> :::if{source="Lillipup" condition="atk=(25- / 5- / x) && startingLevel=7"}
-> - Take Down x2
-> :::
-> :::if{source="Lillipup" condition="(startingLevel=4 && atk=(# / # / 18-)) || (startingLevel=7 && atk=(26+ / 6+ / #)) || startingLevel=5-6"}
-> - Return
-> - Take Down :info[**Todo: combined ranges**]{color=gray}
-> :::
+:::::::trainer[Roughneck Nicky (Drummer)]{info="(129/125/120/115 Minimum Friendship)" color=green}
+  :::::pokemon[Grimer]
+    :::if{source="Lillipup" condition="atk=(25- / 5- / x) && startingLevel=7"}
+      - Work Up x2
+      - Return x2
+    ::: 
+    :::if{source="Lillipup" condition="(atk=(26+ / 6+ / #) && startingLevel=7) || startingLevel=6-"}
+      - Work Up
+      - Return x2
+    ::: 
+
+    :info[**Todo: combined ranges**]{color=gray}
+  :::::
+  :::::pokemon[Koffing]
+    :::if{source="Lillipup" condition="atk=(x / x / 19+) && startingLevel=4"}
+      - Return x2: :info[**Todo: combined ranges**]{color=gray}
+    :::
+    :::if{source="Lillipup" condition="atk=(25- / 5- / x) && startingLevel=7"}
+      - Take Down x2
+    :::
+    :::if{source="Lillipup" condition="(startingLevel=4 && atk=(# / # / 18-)) || (startingLevel=7 && atk=(26+ / 6+ / #)) || startingLevel=5-6"}
+      - Return
+      - Take Down :info[**Todo: combined ranges**]{color=gray}
+    :::
+  :::::
+:::::::
 
 Heal with Pecha if poisoned. Heal to full.
 
-
-### Leader Roxie :info[(133/129/124/119 Minimum Friendship)]{color=green}
-> #### Koffing
-> :::if{source="Lillipup" condition="atk=(x / 8+ / #)"}
-> - Work Up x2
-> - Take Down :info[_Deals 10 damage of recoil._]
-> ::: 
-> :::if{source="Lillipup" condition="atk=(# / 7- / x)"}
-> - Work Up x2
-> - Return x2
-> ::: 
->
-> #### Whirlipede :info[Faster at 27+ Speed (x / 18+ / 5+)]{color=blue}
-> :::if{source="Lillipup" condition="atk=(x / 21+ / 2+)"}
-> - Take Down :info[_Deals 11 damage of recoil._]
-> - (Bite) :info[**Todo: combined ranges**]{color=gray}
-> :::
-> :::if{source="Lillipup" condition="atk=(# / 20- / 1-)"}
-> - Return x2
-> - (Bite) :info[**Todo: combined ranges**]{color=gray}
-> :::
+:::::::trainer[Leader Roxie]{info="(133/129/124/119 Minimum Friendship)" infoColor=green}
+  :::::pokemon[Koffing]
+    :::if{source="Lillipup" condition="atk=(x / 8+ / #)"}
+      - Work Up x2
+      - Take Down :info[_Deals 10 damage of recoil._]
+    ::: 
+    :::if{source="Lillipup" condition="atk=(# / 7- / x)"}
+      - Work Up x2
+      - Return x2
+    ::: 
+  :::::
+  :::::pokemon[Whirlipede]{info="Faster at 27+ Speed (x / 18+ / 5+)" infoColor=blue}
+    :::if{source="Lillipup" condition="atk=(x / 21+ / 2+)"}
+      - Take Down :info[_Deals 11 damage of recoil._]
+      - (Bite) :info[**Todo: combined ranges**]{color=gray}
+    :::
+    :::if{source="Lillipup" condition="atk=(# / 20- / 1-)"}
+      - Return x2
+      - (Bite) :info[**Todo: combined ranges**]{color=gray}
+    :::
+  :::::
+:::::::
 
 #### Pokestar Studios
-> - Choose "Rental Pokemon"
-> - Use Ice Punch
-> - Lose the fight
-> - Release the film when asked
+- Choose "Rental Pokemon"
+- Use Ice Punch
+- Lose the fight
+- Release the film when asked
 
-### Team Plasma Grunt :info[(145/141/136/131 Minimum Friendship)]{color=green}
-> #### Patrat
-> :::if{source="Lillipup" condition="atk=(x / 27+ / 11+)"}
-> - Return (x2) :info[Always kills at 145+ Friendship]{color=gray}
-> ::: 
-> :::if{source="Lillipup" condition="atk=(# / 26- / 10-)"}
-> - Take Down :info[_Deals 9 damage of recoil._]
-> ::: 
+:::::::trainer[Team Plasma Grunt]{info="(145/141/136/131 Minimum Friendship)" infoColor=green}
+  :::::pokemon[Patrat]
+    :::if{source="Lillipup" condition="atk=(x / 27+ / 11+)"}
+      - Return (x2) :info[Always kills at 145+ Friendship]{color=gray}
+    ::: 
+    :::if{source="Lillipup" condition="atk=(# / 26- / 10-)"}
+      - Take Down :info[_Deals 9 damage of recoil._]
+    ::: 
+  :::::
+:::::::
 
 Use a Repel at the grass west of Virbank.
 
-### Team Plasma Grunt :info[(145/141/136/131 Minimum Friendship)]{color=green}
-> #### Purrloin
-> :::if{source="Lillipup" condition="atk=(x / 27+ / 11+)"}
-> - Return (x2) :info[Always kills at 145+ Friendship]{color=gray}
-> ::: 
-> :::if{source="Lillipup" condition="atk=(# / 26- / 10-)"}
-> - Take Down :info[_Deals 9 damage of recoil._]
-> ::: 
+:::::::trainer[Team Plasma Grunt]{info="(145/141/136/131 Minimum Friendship)" infoColor=green}
+  :::::pokemon[Purrloin]
+    :::if{source="Lillipup" condition="atk=(x / 27+ / 11+)"}
+      - Return (x2) :info[Always kills at 145+ Friendship]{color=gray}
+    ::: 
+    :::if{source="Lillipup" condition="atk=(# / 26- / 10-)"}
+      - Take Down :info[_Deals 9 damage of recoil._]
+    ::: 
+  :::::
+:::::::
 
 Drop Repel back in Virbank.
 
@@ -399,8 +431,11 @@ Register the Bike once you receive it and unregister the Medicine Bag, then head
 
 Repel after talking to Iris outside the Castelia Sewers.
 
-### Plasma Double
-- Return x2 on Scraggy
+:::::::trainer[Plasma Double]
+  :::::pokemon[Scraggy]
+    - Return x2
+  :::::
+:::::::
 
 :info[**Free heal**]{color=pink}
 
@@ -412,55 +447,71 @@ Catch a Zubat if you didn’t catch Pidove earlier (45% encounter). Zubat can su
 
 Take the entrance straight ahead when you enter the gym. Head to the right on the second floor.
 
-### Harlequin Clarence
-> #### Sewaddle
-> :::if{source="Lillipup" condition="atk=(26- / 4- / x)"}
-> - Work Up x2
-> - Bite
-> - Strength
-> ::: 
-> :::if{source="Lillipup" condition="atk=(27+ / 5+ / #)"}
-> - Work Up x2
-> - Strength
-> ::: 
-> #### Sewaddle
-> :::if{source="Lillipup" condition="atk=(26- / 4- / x)"}
-> - Bite
-> - Strength
-> ::: 
-> :::if{source="Lillipup" condition="atk=(27+ / 5+ / #)"}
-> - Strength
-> ::: 
+:::::::trainer[Harlequin Clarence]
+  :::::pokemon[Sewaddle]
+    :::if{source="Lillipup" condition="atk=(26- / 4- / x)"}
+      - Work Up x2
+      - Bite
+      - Strength
+    ::: 
+    :::if{source="Lillipup" condition="atk=(27+ / 5+ / #)"}
+      - Work Up x2
+      - Strength
+    ::: 
+  :::::
+  :::::pokemon[Sewaddle]
+    :::if{source="Lillipup" condition="atk=(26- / 4- / x)"}
+      - Bite
+      - Strength
+    ::: 
+    :::if{source="Lillipup" condition="atk=(27+ / 5+ / #)"}
+      - Strength
+    ::: 
+  :::::
+:::::::
 
-### Harlequin Jack
-> #### Combee
-> - Work Up
-> - Strength
-> #### Swadloon
-> - Strength x2
+:::::::trainer[Harlequin Jack]
+  :::::pokemon[Combee]
+    - Work Up
+    - Strength
+  :::::
+  :::::pokemon[Swadloon]
+    - Strength x2
+  :::::
+:::::::
 
-### Harlequin Gary :info[(153/150/145/140 Minimum Friendship)]{color=green}
-> #### Sewaddle
-> - Work Up x2
-> - Return
-> #### Combee
-> - Return
-> #### Dwebble
-> - Bite x2-3 :info[**Todo: combined ranges**]{color=gray}
+:::::::trainer[Harlequin Gary]{info="(153/150/145/140 Minimum Friendship)" infoColor=green}
+  :::::pokemon[Sewaddle]
+    - Work Up x2
+    - Return
+  :::::
+  :::::pokemon[Combee]
+    - Return
+  :::::
+  :::::pokemon[Dwebble]
+    - Bite x2-3 :info[**Todo: combined ranges**]{color=gray}
+  :::::
+:::::::
 
 Heal if low - must be at high-ish HP for Leavanny.
 
-### Leader Burgh
-> #### Swadloon
-> - Work Up x4
-> - Strength
-> #### Dwebble :info[**Todo: ranges to avoid heal**]{color=gray}
-> - (Heal if low)
-> - Bite x2
-> - (Bite) :info[**Todo: combined ranges**]{color=gray}
-> #### Leavanny :info[Leavanny always outspeeds]{color=blue}
-> - Strength
-> - Teach Crunch over Bite
+:::::::trainer[Leader Burgh]
+  :::::pokemon[Swadloon]
+    - Work Up x4
+    - Strength
+  :::::
+  :::::pokemon[Dwebble]{info="Todo: ranges to avoid heal" infoColor=gray}
+    - (Heal if low)
+    - Bite x2
+    - (Bite) :info[**Todo: combined ranges**]{color=gray}
+  :::::
+  :::::pokemon[Leavanny]{info="Leavanny always outspeeds" infoColor=blue}
+    - Strength
+
+    Teach Crunch over Bite
+  :::::
+:::::::
+
 
 ### Castelia Shopping
 > #### Buy
@@ -470,89 +521,112 @@ Heal if low - must be at high-ish HP for Leavanny.
 
 PC Heal and withdraw all Pokemon.
 
-### Pokemon Trainer Colress
-> #### Magnemite
-> :::if{source="Lillipup" condition="atk=(x / 25+ / 8+)"}
-> - Strength
-> - Work Up
-> - Strength
-> ::: 
-> :::if{source="Lillipup" condition="atk=(# / 24- / 7-)"}
-> - Work Up
-> - Strength
-> - Strength
-> ::: 
-> #### Klink
-> - Strength
-> - _If did less than half:_ Work Up
-> - Strength :info[**Todo: combined ranges**]{color=gray}
+:::::::trainer[Pokemon Trainer Colress]
+  :::::pokemon[Magnemite]
+    :::if{source="Lillipup" condition="atk=(x / 25+ / 8+)"}
+      - Strength
+      - Work Up
+      - Strength
+    ::: 
+    :::if{source="Lillipup" condition="atk=(# / 24- / 7-)"}
+      - Work Up
+      - Strength
+      - Strength
+    ::: 
+  :::::
+  :::::pokemon[Klink]
+    - Strength
+    - _If did less than half:_
+      - Work Up
+    - Strength :info[**Todo: combined ranges**]{color=gray}
+  :::::
+:::::::
 
 Go to the Black/White 1 gym and take the blue train.
 
-### Rich Boy Rolan
-> #### Blitzle
-> - Return
+:::::::trainer[Rich Boy Rolan]
+  :::::pokemon[Blitzle]
+    - Return
+  :::::
+:::::::
 
 Use Paralyze Heal if paralyzed.
 
-### Lady Colette
-> #### Flaaffy
-> - Work Up
-> - Strength :info[+1 Strength always kills at 44+ Attack (21+ / # / #)]{color=red}
-> - (Return)
+:::::::trainer[Lady Colette]
+  :::::pokemon[Flaaffy]
+    - Work Up
+    - Strength :info[+1 Strength always kills at 44+ Attack (21+ / # / #)]{color=red}
+    - (Return)
+  :::::
+:::::::
 
 Grab the hidden Revive from the trash can to the right of the Black/White 1 gym.
 
 Use Paralyze Heal if paralyzed and heal if low.
 
-### Beauty Nikola
-> #### Elekid
-> - Strength
-> #### Flaaffy
-> - Strength x2
+:::::::trainer[Beauty Nikola]
+  :::::pokemon[Elekid]
+    - Strength
+  :::::
+  :::::pokemon[Flaaffy]
+    - Strength x2
+  :::::
+:::::::
 
-### Beauty Fleming
-> #### Flaaffy :info[**Todo: combined ranges**]{color=gray}
-> :::if{source="Lillipup" condition="atk=(x / x / 14+)"}
-> - Work Up
-> - Strength
-> ::: 
-> :::if{source="Lillipup" condition="atk=(# / # / 13-)"}
-> - Strength x2
-> ::: 
-> #### Blitzle :info[Faster at 47+ Speed (x / x / 20+)]{color=blue}
-> - Strength
+:::::::trainer[Beauty Fleming]
+  :::::pokemon[Flaaffy]{info="Todo: combined ranges" infoColor=gray}
+    :::if{source="Lillipup" condition="atk=(x / x / 14+)"}
+      - Work Up
+      - Strength
+    ::: 
+    :::if{source="Lillipup" condition="atk=(# / # / 13-)"}
+      - Strength x2
+    ::: 
+  :::::
+  :::::pokemon[Blitzle]{info="Faster at 47+ Speed (x / x / 20+)" infoColor=blue}
+    - Strength
+  :::::
+:::::::
 
 Use Paralyze Heal if paralyzed and heal if low.
 
-### Beauty Ampere
-> #### Blitzle
-> - Strength :info[Always kills at 44+ Attack (7+ / # / #)]{color=red}
-> #### Elekid
-> - Strength
+:::::::trainer[Beauty Ampere]
+  :::::pokemon[Blitzle]
+    - Strength :info[Always kills at 44+ Attack (7+ / # / #)]{color=red}
+  :::::
+  :::::pokemon[Elekid]
+    - Strength
+  :::::
+:::::::
 
 Use Paralyze Heal if paralyzed and **heal to full**. 
 
-### Leader Elesa :info[_Are you ready?_]{color=gray}
-> :info[**Use Return instead of Strength if you caught Lillipup at Lv. 4&ndash;5.**]{color=green}
-> #### _Setup_
-> :::if{source="Lillipup" condition="atk=(# / 25- / 7-)"}
-> - Work Up x3
-> ::: 
-> :::if{source="Lillipup" condition="atk=(x / 26+ / 8+)"}
-> - Work Up x2
-> ::: 
-> #### Emolga :info[**Has Quick Attack**]{color=blue}
-> - Strength :info[+2 Strength always kills at 50+ Attack (x / 11+ / #)]{color=red}
-> - (Return)
-> #### Flaaffy :info[Faster at 34+ Speed (1+ / # / #)]{color=blue}
-> - Strength :info[+2 Strength always kills at 57+ Attack (x / 30+ / 12+)]{color=red}
-> - (Return)
-> #### Zebstrika
-> - Strength
-> - (Return) :info[**Todo: range table**]{color=gray}
->
->  Do not teach Roar
+:::::::trainer[Leader Elesa]{info="Are you ready?" infoColor=gray}
+  :info[**Use Return instead of Strength if you caught Lillipup at Lv. 4&ndash;5.**]{color=green}
+
+  :::::pokemon[Setup]
+    :::if{source="Lillipup" condition="atk=(# / 25- / 7-)"}
+      - Work Up x3
+    ::: 
+    :::if{source="Lillipup" condition="atk=(x / 26+ / 8+)"}
+      - Work Up x2
+    :::
+  :::::
+  :::::pokemon[Emolga]{info="Has Quick Attack" infoColor=pink}
+    - Strength :info[+2 Strength always kills at 50+ Attack (x / 11+ / #)]{color=red}
+    - (Return)
+  :::::
+  :::::pokemon[Flaaffy]{info="Faster at 34+ Speed (1+ / # / #)" infoColor=blue}
+    - Strength :info[+2 Strength always kills at 57+ Attack (x / 30+ / 12+)]{color=red}
+    - (Return)
+  :::::
+  :::::pokemon[Zebstrika]
+    - Strength
+    - (Return) :info[**Todo: range table**]{color=gray}
+  :::::
+
+  Do not teach Roar
+:::::::
 
 :info[**Return is better than Strength at this point unless you got very unlucky.**]{color=green}
 
@@ -563,78 +637,99 @@ Use Paralyze Heal if paralyzed and **heal to full**.
 
 PC heal if paralyzed and out of Paralyze Heals.
 
-### Team Plasma Grunt
-> #### Watchog
-> - Return x2 (Heal as needed)
->
-> _Watchog cannot kill you - only hitting yourself in confusion can do so._
+:::::::trainer[Team Plasma Grunt]
+  :::::pokemon[Watchog]{info="(Heal as needed)"}
+    - Return x2 
 
-### Team Plasma Grunt
-> #### Trubbish
-> - Return (x2)
+    _Watchog cannot kill you - only hitting yourself in confusion can do so._
+  :::::
+:::::::
+
+:::::::trainer[Team Plasma Grunt]
+  :::::pokemon[Watchog]
+    - Return (x2)
+  :::::
+:::::::
 
 :info[**Free heal**]{color=pink}
 
 Answer Yes to Bianca when she asks about Hidden Grottos.
 
-### Motorcyclist Charles :info[(Heal as needed)]
-> _Use whatever you like on Tepig and Pidove/Zubat. **Watch out for Auto Center!**_
-> #### Sigiliiph
-> - Work Up
-> - Crunch :info[+1 Crunch always kills at 58+ Attack (x / 14+ / #)]{color=red}
-> #### Archen
-> - Crunch :info[+1 Crunch always kills at 62+ Attack (x / 27+ / 11+)]{color=red}
-> #### Tirtouga
-> - Crunch x2/x3 :info[+1 Crunch x2 always kills at 63+ Attack (x / 31 / 14+)]{color=red}
+:::::::trainer[Motorcyclist Charles]{info="(Heal as needed)"}
+  _Use whatever you like on Tepig and Pidove/Zubat. **Watch out for Auto Center!**_
 
+  :::::pokemon[Sigilyph]
+    - Work Up
+    - Crunch :info[+1 Crunch always kills at 58+ Attack (x / 14+ / #)]{color=red}
+  :::::
+  :::::pokemon[Archen]
+    - Crunch :info[+1 Crunch always kills at 62+ Attack (x / 27+ / 11+)]{color=red}
+  :::::
+  :::::pokemon[Tirtouga]
+    - Crunch x2/x3 :info[+1 Crunch x2 always kills at 63+ Attack (x / 31 / 14+)]{color=red}
+  :::::
+:::::::
 Heal if low.
 
-### Pokemon Trainer Rood
-> #### Herdier
-> - Return x2
-> - (Strength)
-> #### Swoobat
-> - Crunch
-> - (Strength)
+:::::::trainer[Pokemon Trainer Rood]
+  :::::pokemon[Herdier]
+    - Return x2
+    - (Strength)
+  :::::
+  :::::pokemon[Swoobat]
+    - Crunch
+    - (Strength)
+  :::::
+:::::::
 
 Say No to looking after Zorua and head to the gym.
 
-### Worker Noel
-> #### Baltoy
-> - Crunch :info[+0 Crunch always kills at 65+ Attack (x / 30+ / 14–16)]{color=red}
-> - (Strength)
+:::::::trainer[Worker Noel]
+  :::::pokemon[Baltoy]
+    - Crunch :info[+0 Crunch always kills at 65+ Attack (x / 30+ / 14–16)]{color=red}
+    - (Strength)
+  :::::
+:::::::
 
 Head Right, Down, Right.
 
-### Worker Tavarius
-> #### Drilbur
-> - Return
-> #### Baltoy
-> - Crunch
-> #### Sandile
-> - Return :info[ -1 Return w/ 225 Friendship always kills at 65+ Attack (x / 30+ / #)]{color=red}
+:::::::trainer[Worker Tavarius]
+  :::::pokemon[Drilbur]
+    - Return
+  :::::
+  :::::pokemon[Baltoy]
+    - Crunch
+  :::::
+  :::::pokemon[Sandile]
+    - Return :info[ -1 Return w/ 225 Friendship always kills at 65+ Attack (x / 30+ / #)]{color=red}
+  :::::
+:::::::
 
 Heal to full. Head Up, Up, Up, Right, Down, Right, Up.
 
-### Leader Clay :info[(Heal as needed)]
-> #### Krokorok
-> - Work Up
-> - _If tormented:_
->   - Return
->   - (Work Up)
->   - (Return)
-> - _Otherwise:_
->   - Work Up
->   - Return
-> #### Sandslash
-> - _If only used Work Up once:_
->   - Work Up
-> - Strength
-> - Return
-> #### Excadrill :info[Faster at 70+ Speed (x / x / 15+)]{color=blue}
-> - Return
-> - Work Up
-> - Return
+:::::::trainer[Leader Clay]{info="(Heal as needed)"}
+  :::::pokemon[Krokorok]
+    - Work Up
+    - _If tormented:_
+      - Return
+      - (Work Up)
+      - (Return)
+    - _Otherwise:_
+      - Work Up
+      - Return
+  :::::
+  :::::pokemon[Sandslash]
+    - _If only used Work Up once:_
+      - Work Up
+    - Strength
+    - Return
+  :::::
+  :::::pokemon[Excadrill]{info="Faster at 70+ Speed (x / x / 15+)" infoColor=blue}
+    - Return
+    - Work Up
+    - Return
+  :::::
+:::::::
 
 Learn Fire Fang from the Move Relearner over Crunch.
 
