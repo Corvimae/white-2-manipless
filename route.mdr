@@ -958,7 +958,7 @@ Head up, and pick the trainer on the right.
   :::::pokemon[Druddigon]
     :::if{source="Cobalion" condition="atk=(19+ / # / #)"}
       - Iron Head
-      -Sacred Sword
+      - Sacred Sword
     :::
     :::if{source="Cobalion" condition="atk=(18- / x / x)"}
       - Sacred Sword x2
